@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "confucious"
   gem.homepage = "http://github.com/auser/confucious"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Drop-dead simple configuration}
+  gem.description = %Q{Drop-dead simple configuration for an application. See `README.rdoc` for details}
   gem.email = "arilerner@mac.com"
   gem.authors = ["Ari Lerner"]
   # dependencies defined in Gemfile
@@ -42,12 +42,12 @@ end
 
 task :default => :test
 
-require 'rake/rdoctask'
+require 'rdoc/task'
 Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "confucious #{version}"
+  rdoc.title = "confu #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
