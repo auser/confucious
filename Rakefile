@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "confu"
   gem.homepage = "http://github.com/auser/confu"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Drop-dead simple configuration}
+  gem.description = %Q{Drop-dead simple configuration for an application. See `README.rdoc` for details}
   gem.email = "arilerner@mac.com"
   gem.authors = ["Ari Lerner"]
   # dependencies defined in Gemfile
