@@ -26,6 +26,10 @@ To configure in use:
 Then the `MyClass` that included the module has a magic method called `config`. This `config` method will contain the configuration options available at runtime. Pretty easy.
 
     MyClass.new.config.a # new value for a
+    
+The `gem` is named: `confucious`, because confu was taken.
+
+    `gem install confucious`
 
 == Contributing to confu
  
