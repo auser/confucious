@@ -7,7 +7,7 @@ This is an `incredibly` simple gem with only a few lines of code and a few helpe
 == Usage
 
     class MyClass
-      include Confu
+      include Confucious
       
       configuration do
         property :a, :default => "a_default"
