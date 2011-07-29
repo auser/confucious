@@ -1,6 +1,6 @@
 = confu
 
-I found myself duplicating this code, so I wrote it into a gem. 
+I found myself duplicating this code, so I wrote it into a gem (named: `confucious`). 
 
 This is an `incredibly` simple gem with only a few lines of code and a few helpers to help define a configuration for a class.
 
@@ -29,7 +29,7 @@ Then the `MyClass` that included the module has a magic method called `config`. 
     
 The `gem` is named: `confucious`, because confu was taken.
 
-    `gem install confucious`
+    gem install confucious
 
 == Contributing to confu
  
