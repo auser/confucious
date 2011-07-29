@@ -15,7 +15,7 @@ This is an `incredibly` simple gem with only a few lines of code and a few helpe
       end
     end
     
-The `property` method uses the same syntax as the Hashie::Dash gem uses ('cause that's how the config object is used, anyway). 
+The `property` method uses the same syntax as the [Hashie::Dash](http://github.com/intridea/hashie) gem uses ('cause that's how the config object is used, anyway). 
 
 To configure in use:
 
