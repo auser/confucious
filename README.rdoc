@@ -1,6 +1,31 @@
 = confu
 
-Description goes here.
+I found myself duplicating this code, so I wrote it into a gem. 
+
+This is an `incredibly` simple gem with only a few lines of code and a few helpers to help define a configuration for a class.
+
+== Usage
+
+    class MyClass
+      include Confu
+      
+      configuration do
+        property :a, :default => "a_default"
+        property :no_default
+      end
+    end
+    
+The `property` method uses the same syntax as the Hashie::Dash gem uses ('cause that's how the config object is used, anyway). 
+
+To configure in use:
+
+    MyClass.configure do |c|
+      c.a = "new value for a"
+    end
+
+Then the `MyClass` that included the module has a magic method called `config`. This `config` method will contain the configuration options available at runtime. Pretty easy.
+
+    MyClass.new.config.a # new value for a
 
 == Contributing to confu
  
